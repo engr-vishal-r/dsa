@@ -1,6 +1,10 @@
 package leetCode;
 
 public class ReverseAndAddToGetPalindrome {
+	/**
+	 * Using Neat Algorithm
+	 *
+	 */
 	public static void main(String[] args) {
 		int input = 29;
 		int result = reverseAndAdd(input);
