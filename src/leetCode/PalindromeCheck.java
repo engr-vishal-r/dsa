@@ -17,7 +17,7 @@ public class PalindromeCheck {
 		int original = x;
 		int reversed = 0;
 		if (x < 0) {
-			return false; // Negative numbers can't be palindromes
+			return false; //Negative numbers can't be palindromes
 		}
 		while (x > 0) {
 			int digit = x % 10;
@@ -31,10 +31,10 @@ public class PalindromeCheck {
 		int x = 1441;
 		boolean result = isPalindrome(x);
 		if(result==true) {
-			System.out.println("Given Number is palindrome");
+			System.out.println("Given Number " +  x + " is palindrome");
 		}else {
-			System.out.println("Given Number is not palindrome");
+			System.out.println("Given Number " +  x + " is not palindrome");
 		}
-		System.out.println(result); // Print the result (true or false)
+
 	}
 }

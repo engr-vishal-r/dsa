@@ -11,7 +11,8 @@ public class SumOfPrimesToGetTarget {
 	 * Extracts each digit of the number using % 10.
 	 * Checks if that digit is prime using the isPrime() method.
 	 * If it is prime, adds it to the sum.
-	 * Removes the last digit using /= 10 and repeats.
+	 * Removes the last digit using /= 10 and repeats.`
+	 *
 	 * For 997:
 	 * Last digit: 7 → Prime → Add 7
 	 * Next digit: 9 → Not prime
