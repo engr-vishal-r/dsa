@@ -1,4 +1,4 @@
-package arraysLinearSearch;
+package linearSearch;
 
 public class PrintMinElementInAnArray {
 

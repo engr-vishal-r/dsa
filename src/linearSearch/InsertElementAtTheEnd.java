@@ -1,4 +1,4 @@
-package arraysLinearSearch;
+package linearSearch;
 
 public class InsertElementAtTheEnd {
 	// Function to insert a given key in

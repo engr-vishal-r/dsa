@@ -1,6 +1,4 @@
-package arraysLinearSearch;
-
-import java.util.*;
+package linearSearch;
 
 public class LeadersInArray {
 
@@ -28,7 +26,5 @@ public class LeadersInArray {
 				System.out.print(max_from_right + " ");
 			}
 		}
-
 	}
-
 }

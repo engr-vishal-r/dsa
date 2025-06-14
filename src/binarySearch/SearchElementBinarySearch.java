@@ -1,4 +1,4 @@
-package arraysLinearSearch;
+package binarySearch;
 
 public class SearchElementBinarySearch {
 

@@ -1,4 +1,4 @@
-package arraysLinearSearch;
+package linearSearch;
 
 //Java code O(n*k) solution for finding maximum sum of
 //a subarray of size k

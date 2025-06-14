@@ -1,6 +1,5 @@
-package leetCode;
+package slidingWindow;
 
-import slidingWindow.SlidingWindow;
 
 public class FindBestArray {
 	public int findBestSubarray(int[] nums, int k) {
@@ -19,12 +18,11 @@ public class FindBestArray {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-		int[] nums = { 3, -1, 4, 12, -8, 5, 6 };
+		int[] nums = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
 		int k = 4;
-		SlidingWindow sw = new SlidingWindow();
-		int result = sw.findLength(nums, k);
+		FindBestArray sw = new FindBestArray();
+		int result = sw.findBestSubarray(nums, k);
 		System.out.println(result);
 
 	}

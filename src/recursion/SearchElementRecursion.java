@@ -1,4 +1,4 @@
-package arraysLinearSearch;
+package recursion;
 
 public class SearchElementRecursion {
 	public static void main(String[] args) {

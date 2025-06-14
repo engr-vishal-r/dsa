@@ -1,4 +1,4 @@
-package arraysLinearSearch;
+package linearSearch;
 
 public class InsertAtAnyPosition {
 	static void insertElement(int arr[], int n, int x, int pos) {

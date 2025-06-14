@@ -1,4 +1,4 @@
-package arraysLinearSearch;
+package linearSearch;
 
 //Java program to implement linear
 //search in unsorted arrays

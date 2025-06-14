@@ -1,6 +1,6 @@
 package slidingWindow;
 
-public class SlidingWindow {
+public class FindLengthOfLongestSubArray {
 	
 	// The longest subarray we found was [4, 2, 1, 1] which means the answer is 4.
 	public int findLength(int[] nums, int k) {
@@ -26,7 +26,7 @@ public class SlidingWindow {
 
 		int [] nums = {3,1,2,7,4,2,1,1,5};
 		int k =8;
-		SlidingWindow sw = new SlidingWindow();
+		FindLengthOfLongestSubArray sw = new FindLengthOfLongestSubArray();
 		int result = sw.findLength( nums,  k);
 		System.out.println(result);
 		
