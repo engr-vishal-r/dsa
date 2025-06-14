@@ -3,7 +3,7 @@ package string;
 public class ReverseStringUsingIterative {
 
 	public static void main(String[] args) {
-		String input = "Hello, World!";
+		String input = "Hello World!";
 		 long startTime = System.nanoTime();
 	        String reversed = reverseString(input);
 	        System.out.println("Reversed string: " + reversed);
