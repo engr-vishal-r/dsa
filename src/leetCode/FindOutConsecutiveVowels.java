@@ -11,7 +11,7 @@ public class FindOutConsecutiveVowels {
         StringBuilder checked =new StringBuilder();
 
         // Loop through each character in the input string
-        for (int i = 0; i < toCheck.length(); i++) {
+        for (int i = 0; i < toCheck.length() ; i++) {
             char currentChar = toCheck.charAt(i);
             // Check if the current character is not a vowel or the previous character is not a vowel
             if (vowels.indexOf(currentChar) == -1 || (i > 0 && vowels.indexOf(toCheck.charAt(i - 1)) == -1)) {                

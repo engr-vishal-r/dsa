@@ -1,4 +1,4 @@
-package leetCode;
+package slidingWindow;
 
 public class SlidingWindow {
 	
@@ -9,7 +9,8 @@ public class SlidingWindow {
 		int ans = 0;
 
 		for (int right = 0; right < nums.length; right++) {
-			curr += nums[right];
+			curr += nums[right]; // Expand the window by adding current number
+			// Shrink the window from the left if the sum exceeds k
 			while (curr > k) {
 				curr -= nums[left];
 				left++;

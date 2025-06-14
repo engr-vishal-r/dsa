@@ -1,4 +1,4 @@
-package string;
+package slidingWindow;
 
 public class PrintSubStrings {
 

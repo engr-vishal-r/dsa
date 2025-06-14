@@ -3,11 +3,8 @@ package string;
 public class FrequencyOfLettersInStringUsingArray {
 	public static void main(String[] args) {
 		String stringToCheck = "India is My Country";
-		long startTimeForLoop = System.nanoTime();
+
 		checkAndPrintFrequency(stringToCheck);
-		long endTimeForLoop = System.nanoTime();
-		long durationForLoop = (endTimeForLoop - startTimeForLoop);
-		System.out.println("Time taken (For Loop): " + durationForLoop + " nanoseconds");
 	}
 
 	public static void checkAndPrintFrequency(String stringToCheck) {

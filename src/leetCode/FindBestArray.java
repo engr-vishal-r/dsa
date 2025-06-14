@@ -1,5 +1,7 @@
 package leetCode;
 
+import slidingWindow.SlidingWindow;
+
 public class FindBestArray {
 	public int findBestSubarray(int[] nums, int k) {
 		int curr = 0;

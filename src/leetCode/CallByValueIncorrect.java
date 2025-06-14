@@ -1,6 +1,6 @@
 package leetCode;
 
-public class CallByValue {
+public class CallByValueIncorrect {
 
 	int data = 50;
 
@@ -9,7 +9,7 @@ public class CallByValue {
 	}
 
 	public static void main(String args[]) {
-		CallByValue op = new CallByValue();
+		CallByValueIncorrect op = new CallByValueIncorrect();
 
 		System.out.println("before change " + op.data);
 		op.change(500);

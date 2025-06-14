@@ -1,15 +1,15 @@
 package leetCode;
 
-public class CallByValue1 {
+public class CallByValueCorrect {
 
 	int data = 50;
 
-	void change(CallByValue1 op) {
+	void change(CallByValueCorrect op) {
 		op.data = op.data + 100;// changes will be in the instance variable
 	}
 
 	public static void main(String args[]) {
-		CallByValue1 op = new CallByValue1();
+		CallByValueCorrect op = new CallByValueCorrect();
 
 		System.out.println("before change " + op.data);
 		op.change(op);// passing object

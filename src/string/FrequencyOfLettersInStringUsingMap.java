@@ -9,11 +9,7 @@ public class FrequencyOfLettersInStringUsingMap {
 		String stringToCheck = "India is My Country";
 
 		FrequencyOfLettersInStringUsingMap fols = new FrequencyOfLettersInStringUsingMap();
-		long startTimeForLoop = System.nanoTime();
 		fols.checkAndPrintFrequency(stringToCheck);
-		long endTimeForLoop = System.nanoTime();
-		long durationForLoop = (endTimeForLoop - startTimeForLoop);
-		System.out.println("Time taken (For Loop): " + durationForLoop + " nanoseconds");
 	}
 	
 	public static void checkAndPrintFrequency(String stringToCheck) {
