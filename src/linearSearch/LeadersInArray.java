@@ -8,7 +8,7 @@ public class LeadersInArray {
 	public static void main(String[] args) {
 		LeadersInArray lia = new LeadersInArray();
 
-		int arr[] = { 16, 17, 4, 3, 5, 2 };
+		int arr[] = { 19, 4, 1, 3, 5, 2 };
 		int n = arr.length;
 
 		lia.printLeader(arr, n);

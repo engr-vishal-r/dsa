@@ -1,30 +1,25 @@
 package leetCode;
 
+import java.util.Arrays;
+
 public class MaxProductOfTwoElementsInArray {
 
 	public static void main(String[] args) {
-		int nums[] = { -3, 4, -5, -1 };
-		int max1 = Integer.MIN_VALUE;
-		int max2 = Integer.MIN_VALUE;
+		int[] nums = { -3, 4, 5, -1 };
 
-		// Convert array to positive
-		for (int i = 0; i < nums.length; i++) {
-			nums[i] = Math.abs(nums[i]);
-		}
+		Arrays.sort(nums);  // sorts in ascending order
 
-		for (int num : nums) {
-			if (num > max1) {
-				max2 = max1;
-				max1 = num;
+		int n = nums.length;
 
-			} else if (num > max2) {
-				max2 = num;
-			}
-		}
+		// Two candidates for max product:
+		// 1. Product of two largest numbers
+		int prod1 = nums[n - 1] * nums[n - 2];
 
-		int maxProduct = (max1 - 1) * (max2 - 1);
+		// 2. Product of two smallest (could both be negative)
+		int prod2 = nums[0] * nums[1];
 
-		System.out.println(maxProduct);
+		int maxProduct = Math.max(prod1, prod2);
+
+		System.out.println("Max Product: " + maxProduct);
 	}
-
 }
