@@ -7,7 +7,7 @@ import java.util.stream.IntStream;
 public class TwoSum {
 	public static void main(String[] args) {
 
-		int nums[] = { 2, 7, 11, 15 };
+		int nums[] = { 2, 7, 11, 15, 4 };
 		int target = 22;
 		boolean found = false;
 		for (int i = 0; i < nums.length; i++) {
@@ -18,8 +18,6 @@ public class TwoSum {
 					break;
 				}
 			}
-			if (found)
-				break; // exit the outer loop if a match is found
 		}
 		if (!found) { // if no match is found after checking all pairs
 			System.out.println("No Match Found");
